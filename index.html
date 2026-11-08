@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sonam Wangchuk | Computer Systems and Networking Student</title>
+<meta name="description" content="Portfolio of Sonam Wangchuk, a Diploma in Computer System and Network student at Jigme Namgyel Engineering College, Bhutan.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bgvideo" aria-hidden="true"><video muted loop playsinline preload="none" poster="assets/video/bg-poster.jpg"><source src="assets/video/bg.webm" type="video/webm"><source src="assets/video/bg.mp4" type="video/mp4"></video></div>
+
+<div id="intro" aria-hidden="true">
+  <div class="rings"><i class="ring r1"></i><i class="ring r2"></i><i class="ring r3"></i></div>
+  <p class="intro-this"><span>This</span><span class="chip">Is</span></p>
+  <p class="intro-big"><span>My</span><span>Portfolio</span></p>
+  <button type="button" id="skipIntro">Skip</button>
+</div>
+
+<header class="topbar">
+  <a class="logo" href="#home" aria-label="Sonam Wangchuk, home"><img src="assets/logo-mark.png" alt="" width="38" height="38"></a>
+  <nav id="nav" aria-label="Main">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="tools">
+    <button id="musicBtn" class="music-btn" type="button" aria-pressed="false" aria-label="Play background music"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M4 9v6h4l5 4V5L8 9H4z"/><path class="waves" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M16 9a4 4 0 0 1 0 6M18.6 6.4a8 8 0 0 1 0 11.2"/><path class="slash" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M17 9.5l5 5M22 9.5l-5 5"/></svg></button>
+    <button id="themeBtn" class="switch" type="button" role="switch" aria-checked="true" aria-label="Dark mode"><i></i></button>
+    <button id="menuBtn" class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="dots" aria-label="Page controls">
+  <button type="button" id="toTop" aria-label="Back to top"><i></i></button>
+  <button type="button" id="toNext" aria-label="Next section"><svg viewBox="0 0 10 10" width="8" height="8" aria-hidden="true"><path fill="currentColor" d="M2 1l7 4-7 4z"/></svg></button>
+</div>
+
+<main>
+<section id="home" class="screen hero">
+  <div class="rings"><i class="ring r1"></i><i class="ring r2"></i><i class="ring r3"></i></div>
+  <a class="learn" href="#about">Learn More <span><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14M13 6l6 6-6 6"/></svg></span></a>
+  <img class="sticker" src="assets/img/sticker.webp" alt="Sonam Wangchuk in a gho, cut out as a sticker" width="840" height="1200">
+  <div class="id-card">
+    <i class="tab"></i>
+    <h1><span>Sonam</span><span>Wangchuk</span></h1>
+    <p class="as">Computer Systems &amp; Networking Student</p>
+    <p class="rot">I work with <b id="rot">networks</b></p>
+  </div>
+</section>
+
+<section id="about" class="screen about">
+  <div class="wrap about-grid">
+    <div class="pills" aria-hidden="true">
+      <figure class="pill p1"><img src="assets/img/about-1.jpg" alt="" width="364" height="640" loading="lazy"></figure>
+      <figure class="pill p2"><img src="assets/img/about-2.jpg" alt="" width="568" height="1000" loading="lazy"></figure>
+    </div>
+    <div class="copy">
+      <h2>About me</h2>
+      <p>I’m from Trongsa and currently live in Dewathang, where I’m studying for a Diploma in Computer System and Network at Jigme Namgyel Engineering College, part of the Royal University of Bhutan.</p>
+      <p>My coursework and projects cover routing with BGP, access control lists, DHCP, Linux administration, Python desktop apps and web development. I like work where a technical idea can be tested on a real problem, especially problems that Bhutanese farmers, schools and communities face.</p>
+      <h3>Career goal</h3>
+      <p>I want to work as a network and systems engineer, and keep building tools that make technology more useful and reliable in Bhutan.</p>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="screen skills">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <div class="skill-cols">
+      <article><h3>Networking</h3><ul><li>BGP (eBGP and iBGP)</li><li>Access control lists</li><li>IP addressing and VLANs</li><li>DHCP</li><li>Cisco Packet Tracer</li><li>CCNA coursework</li></ul></article>
+      <article><h3>Systems</h3><ul><li>Linux server administration</li><li>isc-dhcp-server</li><li>Command line</li></ul></article>
+      <article><h3>Development</h3><ul><li>Python and Tkinter</li><li>SQLite</li><li>HTML and CSS</li><li>JavaScript</li><li>PHP and Laravel</li><li>Git and GitHub</li><li>Vercel deployment</li></ul></article>
+      <article><h3>Other</h3><ul><li>Technical reports</li><li>Presentations</li><li>Teamwork</li></ul></article>
+    </div>
+  </div>
+  <div class="marquee" aria-hidden="true">
+    <div class="mrow"><div class="track"><ul><li>BGP</li><li>ACLs</li><li>VLANs</li><li>DHCP</li><li>Packet Tracer</li><li>CCNA</li><li>Linux</li><li>Python</li><li>Tkinter</li><li>SQLite</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li><li>Laravel</li><li>Git</li><li>Vercel</li></ul><ul><li>BGP</li><li>ACLs</li><li>VLANs</li><li>DHCP</li><li>Packet Tracer</li><li>CCNA</li><li>Linux</li><li>Python</li><li>Tkinter</li><li>SQLite</li><li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li><li>Laravel</li><li>Git</li><li>Vercel</li></ul></div></div>
+  </div>
+</section>
+
+<section id="projects" class="screen projects">
+  <div class="wrap">
+    <h2>My project</h2>
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button type="button" class="filter active" data-filter="all">All</button>
+      <button type="button" class="filter" data-filter="web">Web</button>
+      <button type="button" class="filter" data-filter="python">Python</button>
+      <button type="button" class="filter" data-filter="network">Networking</button>
+    </div>
+  </div>
+  <div class="carousel">
+    <button type="button" class="car-btn prev" aria-label="Previous project"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="track-p" tabindex="0" aria-label="Projects, scroll sideways">
+      <article class="pcard" data-cat="web">
+        <span class="num">01</span>
+        <h3>JNEC Events Hub</h3>
+        <p>A five-page college events website (home, events, register, gallery and contact) built in three stages: HTML structure with tables, forms and media, one shared external stylesheet, and JavaScript for registration form validation, live event filtering, a remaining-seats counter and a dark mode toggle.</p>
+        <ul class="tags"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Git</li></ul>
+        <div class="links"><a href="https://github.com/aceetee4558-png/events_hub" target="_blank" rel="noopener">View on GitHub</a></div>
+      </article>
+      <article class="pcard" data-cat="web">
+        <span class="num">02</span>
+        <h3>Student Portfolio: Git and Vercel</h3>
+        <p>A practice portfolio page for learning version control and deployment. I made commits, worked on feature branches, opened and merged a pull request on GitHub, and deployed it on Vercel so every push redeploys the site automatically.</p>
+        <ul class="tags"><li>Git</li><li>GitHub</li><li>Vercel</li></ul>
+        <div class="links"><a href="https://github.com/aceetee4558-png/-student_portfolio" target="_blank" rel="noopener">View on GitHub</a><a href="https://student-portfolio-3fgs.vercel.app/" target="_blank" rel="noopener">Live site</a></div>
+      </article>
+      <article class="pcard" data-cat="python">
+        <span class="num">03</span>
+        <h3>Unit Converter with Database</h3>
+        <p>A desktop app that converts length, weight, temperature, time, area and volume. Every conversion is saved to SQLite, and you can add, view, edit, delete and search the history, with input validation.</p>
+        <ul class="tags"><li>Python</li><li>Tkinter</li><li>SQLite</li></ul>
+      </article>
+      <article class="pcard" data-cat="network">
+        <span class="num">04</span>
+        <h3>eBGP Network with ACL Filtering</h3>
+        <p>A Cisco Packet Tracer lab with three 2911 routers in separate autonomous systems: an ISP (AS 300), HQ_Edge (AS 200) and a Branch (AS 100). They peer over eBGP and advertise their LAN networks, and an extended ACL on HQ_Edge blocks one Branch PC from reaching an HQ host while permitting all other traffic.</p>
+        <ul class="tags"><li>eBGP</li><li>ACL</li><li>Cisco Packet Tracer</li></ul>
+      </article>
+    </div>
+    <button type="button" class="car-btn next" aria-label="Next project"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></button>
+  </div>
+</section>
+
+<section id="education" class="screen education">
+  <div class="wrap">
+    <div class="edu-top">
+      <h2>Education</h2>
+      <figure class="wide-pill" aria-hidden="true"><div><img src="assets/img/edu-icon.png" alt="" width="669" height="458" loading="lazy"></div></figure>
+    </div>
+    <div class="edu-body">
+      <p class="when">Currently studying</p>
+      <p class="deg">Diploma in Computer System and Network</p>
+      <p class="uni">Jigme Namgyel Engineering College, Dewathang<br>Royal University of Bhutan</p>
+      <p>Modules and projects so far include Web Design (JavaScript), GUI applications with database integration, networking with BGP and ACLs, and the capstone project module.</p>
+    </div>
+  </div>
+</section>
+
+<section id="certificates" class="screen certs">
+  <div class="wrap certs-grid">
+    <div>
+      <h2>Certifications</h2>
+      <ul class="cert-list">
+        <li><b class="date">Jul 27, 2026</b><span class="ct">CCNA: Introduction to Networks</span><small>Cisco Networking Academy at JNEC</small><button type="button" class="cert-view" data-img="assets/certs/ccna1.jpg" data-title="CCNA: Introduction to Networks">View certificate</button></li>
+        <li><b class="date">Jul 27, 2026</b><span class="ct">CCNA: Switching, Routing, and Wireless Essentials</span><small>Cisco Networking Academy at JNEC</small><button type="button" class="cert-view" data-img="assets/certs/ccna2.jpg" data-title="CCNA: Switching, Routing, and Wireless Essentials">View certificate</button></li>
+        <li><b class="date">Sep 17, 2026</b><span class="ct">Master Full-Stack Web Development with Laravel &amp; PHP</span><small>Board Infinity on Coursera</small><button type="button" class="cert-view" data-img="assets/certs/laravel.jpg" data-title="Master Full-Stack Web Development with Laravel and PHP">View certificate</button></li>
+        <li><b class="date">Sep 22, 2026</b><span class="ct">Becoming a Linux Server Admin</span><small>Packt on Coursera</small><button type="button" class="cert-view" data-img="assets/certs/linux.jpg" data-title="Becoming a Linux Server Admin">View certificate</button></li>
+        <li><b class="date">Sep 22, 2026</b><span class="ct">Python Tkinter: Design, Build &amp; Integrate GUIs</span><small>EDUCBA on Coursera</small><button type="button" class="cert-view" data-img="assets/certs/tkinter.jpg" data-title="Python Tkinter: Design, Build and Integrate GUIs">View certificate</button></li>
+      </ul>
+    </div>
+    <div class="cert-thumbs" aria-hidden="true">
+      <img src="assets/img/cert-diploma.jpg" alt="" width="360" height="360" loading="lazy">
+      <img src="assets/img/cert-icon.jpg" alt="" width="600" height="600" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="screen contact">
+  <div class="wrap contact-grid">
+    <div>
+      <h2>Contact</h2>
+      <p class="lead">I’m open to internships, collaborations and questions about my projects.</p>
+      <ul class="c-list">
+        <li><i class="ic"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5v-11zm2.2.5L12 12l6.8-5H5.2z"/></svg></i><div><b>Email</b><a href="mailto:05250194.jnec@rub.edu.bt">05250194.jnec@rub.edu.bt</a> <button type="button" id="copyBtn" class="copybtn">Copy</button></div></li>
+        <li><i class="ic"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25c1.1.37 2.3.57 3.6.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z"/></svg></i><div><b>Phone number</b><a href="tel:+97516163076">16163076</a></div></li>
+        <li><i class="ic"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.2 7 13 7 13s7-7.8 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></i><div><b>Location</b><span>Dewathang, Bhutan</span></div></li>
+        <li><i class="ic"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1 1M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1-1"/></svg></i><div><b>GitHub</b><a href="https://github.com/aceetee4558-png" target="_blank" rel="noopener">github.com/aceetee4558-png</a></div></li>
+      </ul>
+    </div>
+  </div>
+  <img class="sticker s2" src="assets/img/phone-figure.webp" alt="" width="436" height="1164" loading="lazy">
+</section>
+
+<section class="screen thanks">
+  <h2 class="thanks-h">Thank you</h2>
+  <p class="foot">© <span id="year">2026</span> Sonam Wangchuk. Built with HTML, CSS and JavaScript.</p>
+</section>
+</main>
+
+<dialog id="certDialog" aria-labelledby="certDlgTitle">
+  <div class="dlg-head">
+    <h3 id="certDlgTitle">Certificate</h3>
+    <button type="button" id="certClose" class="x" aria-label="Close">
+      <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <img id="certImg" src="" alt="">
+</dialog>
+
+<audio id="bgMusic" loop preload="none"><source src="assets/audio/music.ogg" type="audio/ogg; codecs=opus"><source src="assets/audio/music.mp3" type="audio/mpeg"></audio>
+<script src="script.js"></script>
+</body>
+</html>

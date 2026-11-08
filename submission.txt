@@ -1,0 +1,4 @@
+Student Name: Sonam Wangchuk
+Student ID: 05250194
+GitHub Repository Link: https://github.com/YOUR-USERNAME/portfolio
+Deployed Website Link: https://YOUR-USERNAME.github.io/portfolio/
